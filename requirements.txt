@@ -1,5 +1,7 @@
-langchain
 google-generativeai
 streamlit
 IPython
 python-dotenv
+langchain
+langchain-community
+langchain-anthropic
