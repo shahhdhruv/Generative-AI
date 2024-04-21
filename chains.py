@@ -10,7 +10,7 @@ parser.add_argument("--task", default="Return a list of numbers")
 parser.add_argument("--language", default="Python")
 args = parser.parse_args()
 
-llm = ChatAnthropic(model_name="claude-1.3", anthropic_api_key="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")
+llm = ChatAnthropic(model_name="claude-1.3", anthropic_api_key="#your_key_here")
 
 code_prompt = PromptTemplate(
     template="Write a very short {language} function that will {task}",
